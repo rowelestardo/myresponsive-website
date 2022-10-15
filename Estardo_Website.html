@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+/* Style the body */
+body {
+  font-family: Georgia, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  border: 10px solid #9C9EFE;
+  text-align: center;
+  background: #B1E1FF;
+  color: black;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #AFB4FF;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: violet;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #9C9EFE;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: #A66CFF;
+  padding: 20px;
+}
+
+/* Image, just for this example */
+.image {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #AFB4FF;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+  <h1>My Website</h1>
+  <p><b>Rowel Etardo</b></p>
+  <p>Student</p>
+</div>
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h5>Photo of me:</h5>
+    <img src="Picture.jpg" alt="Picture" style="width:300px">
+  <h2>About Me</h2>
+  <p>Welcome!<br>
+Every person has their own story,Here is a glimpse into mine.</p>
+
+  <p>I am Rowel Estardo, I am 22 years old, height is 5'5 student of Dr. FELEMON C. AGUILAR MEMORIAL COLLEGE OF LAS PINAS and now taking the BS In Information System course. Right now I am also a working student studying in Tangali and after class I look after the store. I also helped my parents for the daily expenses. On the other hand, I also like to listen to music because it makes my tiredness go away, and of course I'm kind enough to talk to you.
+I also like to eat street foods and it is one of my favorite foods, I also like to watch anime and I am also an anime lover and most of all I am friendly and cheerful.
+  </div>
+   <div class="side">
+   <h2>Here Some Facts About Me</h2>
+   </div>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">I am a nice person</a>
+  <a href="#">I am a joly person</a>
+  <a href="#">I am hardworking</a>
+  <a href="#">I am hamble person</a>
+</div>
+  <div class="main">
+   <h3>Favorite Color</h3><p>~Red and Black</p>
+   <h3>Favorite Food</h3><p>~Kare-kare and Dinuguan</p>
+   <h3>Favorite Movies</h3><p>~Spider Man No way Home</p>
+   <h3>Favorite Anime</h3><p>~One Piece and Hunter X Hunter</p>
+    <h2>My Dream & Passion</h2>
+    <h5>Become a famous Web Developer and Web Designer</h5>
+    <img src="Designer.jpg" alt="Designer" style="width:500px">
+    <p><b>My Goal in life..</b></p>
+    <p>My Goal in life is to graduate and become a famous developer in another country. And also to help my parents and siblings. So now I will continue my studies to be successful someday</p>
+    <br>
+<!-- Footer -->
+<div class="footer">
+  <h2>And I Bilieve...</h2>
+  <p>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler</p>
+</div>
+
+</body>
+</html>
+
+  
